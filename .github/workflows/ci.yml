@@ -12,11 +12,16 @@ on:
         - 'src/**'
         - 'tests/**'
   pull_request:
-  
+
     types: [opened, reopened, synchronize]
-    paths:
-        - 'src/**'
-        - 'tests/**'
+    #paths:
+        #- 'src/**'
+        #- 'tests/**'
+
+
+
+        
+        
 
 jobs:
   lint:
