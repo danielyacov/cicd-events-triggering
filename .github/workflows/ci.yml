@@ -7,6 +7,7 @@ on:
       branches:
         - main
         #- develop
+        # i add to it 3.0
       paths:
         - 'src/**'
         - 'tests/**'
