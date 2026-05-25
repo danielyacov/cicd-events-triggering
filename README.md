@@ -97,3 +97,5 @@ src/
 tests/                       unit + API tests (Jest)
 ```
 # cicd-events-triggering
+
+i add to it
