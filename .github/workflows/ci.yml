@@ -12,13 +12,13 @@ on:
         - 'src/**'
         - 'tests/**'
   pull_request:
-  
-    types: [opened, reopened, synchronize]
-    paths:
-        - 'src/**'
-        - 'tests/**'
 
-jobs:
+    types: [opened, reopened, synchronize]
+    #paths:
+        #- 'src/**'
+        #- 'tests/**'
+
+
   lint:
     name: Lint & Typecheck
     runs-on: ubuntu-latest
